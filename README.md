@@ -43,11 +43,11 @@ roboweek5/
   │
   ├── resources/
   │        ├── actions/
-  │        │       └── cart.robot
-  │        │       └── order.robot
+  │        │       ├── cart.robot
+  │        │       ├── order.robot
   │        │       └── search.robot
   │        ├── fixtures/
-  │        │       └── cart.robot
+  │        │       ├── cart.robot
   │        │       └── order.robot
   │        └── base.robot
   │
@@ -65,7 +65,7 @@ roboweek5/
 
  - **logs:** arquivos de logs dos testes realizados (html, xml);
  - **resources:** "recursos utilizados";
- - **actions:** arquivos que contém as funções/funcionalidades dos testes como, por exemplo: ações da funcionalidade carrinho de compras;
+ - **actions:** arquivos que contém as páginas com funcionaldiades dos testes, como por exemplo: ações da página carrinho de compras;
  - **fixtures:** arquivos para massa de dados estática para os testes (json);
  - **base.robot** arquivo base do projeto;
  - **tests:** arquivos de testes separados em serviços (buscar, carrinho de compras, pedidos);
